@@ -1,5 +1,6 @@
 body, html {
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -14,4 +15,18 @@ body, html {
     width: 960px;
     height: 960px;
     border: 1px solid #000
+}
+
+button {
+    border-color: #000;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
 }

@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     container.addEventListener('mousedown', (event) =>{
         if (event.target.classList.contains('square')) {
             isMouseDown = true;
-            event.target.style.backgroundColor = 'blue'; // Change color to blue
+            event.target.style.backgroundColor = getRandomColor(); // Change color to blue
         }
     });
 
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //Mouseover event to draw when mouse is down
     container.addEventListener('mouseover', (event) => {
         if (isMouseDown && event.target.classList.contains('square')){
-            event.target.style.backgroundColor = 'blue';
+            event.target.style.backgroundColor = getRandomColor();
         }
     })
 })
@@ -70,4 +70,14 @@ function createGrid(size){
 
         container.appendChild(square);
     }
+}
+
+function getRandomColor(){
+    // Generate random RGB color
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+
+    // Return the CSS color string
+    return `rgb(${r},${g},${b})`;
 }

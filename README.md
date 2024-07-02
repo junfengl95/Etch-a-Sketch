@@ -10,5 +10,5 @@ Features
 Clone the repository.
 Open the HTML file in a web browser
 
-If you open from GitHub Pages, click on this url [Etch-a-Sketch](https://junfengl95.github.io/Etch-a-Sketch/sketch.html) to start drawing
+If you open from GitHub Pages, click on the link [Etch-a-Sketch](https://junfengl95.github.io/Etch-a-Sketch/sketch.html) to start drawing
 

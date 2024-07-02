@@ -1,4 +1,5 @@
 body, html {
+    display: flex;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -13,12 +14,4 @@ body, html {
     width: 960px;
     height: 960px;
     border: 1px solid #000
-}
-
-.container .square {
-    width: 60px;
-    height: 60px;
-    box-sizing: border-box;
-    border: 1px solid #ddd;
-    transition: background-color 0.3s; /* For smoother color transition */
 }

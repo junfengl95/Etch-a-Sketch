@@ -6,6 +6,7 @@ Features
 - Dynamic Grid Creation: Generates a grid of square divs using JavaScript.
 - Interactive Drawing: Allows users to draw by hovering over the grid cells.
 - Adjustable Grid Size: Includes a button to prompt the user to change the grid size
+- Randomized square color
 
 Clone the repository.
 Open the HTML file in a web browser
